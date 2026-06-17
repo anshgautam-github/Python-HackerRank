@@ -14,3 +14,9 @@
 def mutate_string(string, position, character):
     return string[:position]+character+string[position+1:]
  
+# Strings are Immutable (Most Important)
+# If You tried: string[position] = character
+# But Python gives an error because strings cannot be modified after creation.
+# s = "hello"
+# s[0] = "H"    # ❌ TypeError
+# Instead, you create a new string:
