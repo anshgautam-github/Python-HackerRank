@@ -1,11 +1,8 @@
-/**
-Sample Input 
-3
+# Sample Input 
+# 3
+# Sample Output
+# 123
 
-Sample Output
-123
-
-*/
 
 if __name__ == '__main__':
     n = int(input())
