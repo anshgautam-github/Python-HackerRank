@@ -36,3 +36,13 @@ def count_substring(string, sub_string):
 # There are 3 occurrences.
 
 # But:s.count("AA") returns: 2 because count() counts non-overlapping matches.
+
+# Correct Approach
+# Traverse every index and check if the substring starts there.
+# Dry Run : string = "ABCDCDC" , sub_string = "CDC"
+# Check:
+# i=0 -> ABC != CDC
+# i=1 -> BCD != CDC
+# i=2 -> CDC == CDC ✓ count=1
+# i=3 -> DCD != CDC
+# i=4 -> CDC == CDC ✓ count=2
