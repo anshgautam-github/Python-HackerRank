@@ -16,3 +16,11 @@ if __name__ == '__main__':
     print(any(c.isdigit() for c in s))
     print(any(c.islower() for c in s))
     print(any(c.isupper() for c in s))
+
+
+# any() is a built-in Python function.
+# It answers one simple question: "Is there at least one True value in this iterable?"
+# print(any([False, False, True])) -> True ,     any(iterable)
+
+
+# all(): all([False, True, False]) -> Output: False . All values must be True.
